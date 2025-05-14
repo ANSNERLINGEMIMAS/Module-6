@@ -26,30 +26,23 @@ To write a Python program that demonstrates **operator overloading** by overload
 
 ## 💻 Program
 ```
-class Box:
-    def __init__(self, volume):
-        self.volume = volume
+class A:
+    def __init__(self,a):
+        self.a=a
+    def __lt__(self,other):
+        return self.a<other.a
+ob1 = A(2)
 
-    # Overloading < operator
-    def __lt__(self, other):
-        return self.volume < other.volume
-
-# Creating objects
-box1 = Box(10)
-box2 = Box(20)
-
-# Comparing using overloaded operator
-if box1 < box2:
-    print("Box1 is smaller than Box2")
+ob2 = A(3)
+if ob2<ob1:
+    print("ob2 is less than ob1")
 else:
-    print("Box1 is not smaller than Box2")
-
+    print("ob1 is less than ob2")
 ```
 
 ## Output
-```
-Box1 is smaller than Box2
-```
+
+![image](https://github.com/user-attachments/assets/4dc4071c-205c-4919-bde1-f1a101e36c02)
 
 ## Result
 
