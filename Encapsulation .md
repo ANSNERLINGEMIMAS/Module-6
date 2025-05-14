@@ -24,32 +24,21 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 
 ## 💻 Program
 ```
-class Rectangle:
+  class Rectangle:
+    __length = 0 
+    __breadth = 0
     def __init__(self):
-        self.__length = 0
-        self.__breadth = 0
-
-    def set_dimensions(self, length, breadth):
-        self.__length = length
-        self.__breadth = breadth
-
-    def get_area(self):
-        return self.__length * self.__breadth
-
-
-rect = Rectangle()
-
-
-rect.set_dimensions(10, 5)
-
-
-print("Area of Rectangle:", rect.get_area())
+      self.__length = 5
+      self.__breadth = 3
+      print(self.__length)
+      print(self.__breadth)
+   
+  obj = Rectangle()
 ```
 
 
 ## Output
-```
-Area of Rectangle: 50
+![441540940-46bd4017-fa10-4b86-9eb7-039a6158585a](https://github.com/user-attachments/assets/9bf23cd9-aaf2-4358-838e-539edd162088): 50
 ```
 
 ## Result
