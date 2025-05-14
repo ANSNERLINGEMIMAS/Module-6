@@ -64,13 +64,9 @@ circ = Circle()
 print("Area of Rectangle:", rect.calculate_area())
 print("Area of Circle:", round(circ.calculate_area(), 2))
 ```
-
 ## Output
 
-```
-Area of Rectangle: 20
-Area of Circle: 28.27
-```
+![image](https://github.com/user-attachments/assets/4e7bad86-f405-4319-a2d7-41411c477e07)
 
 ## Result
 
