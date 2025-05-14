@@ -36,10 +36,8 @@ s.type()
 
 
 ## OUTPUT
-```
-This is a fish
-This is a shark
-```
+![image](https://github.com/user-attachments/assets/a88a68b0-0901-4a3b-bae2-085b55c92242)
+
 
 ## RESULT
 The program successfully demonstrates class inheritance and method overriding in Python.
